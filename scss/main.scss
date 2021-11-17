@@ -100,12 +100,17 @@ a {
 
   &__button {
     padding: 1.15em 2.3em;
-    border: none;
+    border: 2px solid $light-color;
     outline: none;
     border-radius: 30px;
     align-self: start;
     font-size: 14px;
     letter-spacing: 1px;
     color: var(--card-color);
+
+    &:hover {
+      background-color: transparent;
+      color: $light-color;
+    }
   }
 }
