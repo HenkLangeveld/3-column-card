@@ -30,6 +30,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 87px 24px 60px;
+  background-color: $light-color;
 
   @media (min-width: $breakpoint) {
     padding-top: 90px;
